@@ -24,7 +24,7 @@ def choose_main_menu():
         quit()
 
 def open_file():
-    open_file = open("/Users/zackstephens/Desktop/python/addressBook.csv", "r")
+    open_file = open("addressBook.csv", "r")
     for each_line in open_file:
         addresses.append(each_line.split(","))
 
